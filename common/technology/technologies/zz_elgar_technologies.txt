@@ -15,7 +15,6 @@ elgar_classicism_tech = {
 	category = society
 	
 	modifier = {
-		country_prestige_mult = 0.025
 	}
 	
 	unlocking_technologies = {
@@ -38,7 +37,6 @@ elgar_irrationalism_tech = {
 	category = society
 	
 	modifier = {
-		country_prestige_mult = 0.05
 	}
 	
 	unlocking_technologies = {
@@ -67,7 +65,6 @@ elgar_art_nouveau_tech = {
 	category = society
 	
 	modifier = {
-		country_prestige_mult = 0.05
 	}
 
 	unlocking_technologies = {
@@ -88,7 +85,6 @@ elgar_art_deco_tech = {
 	category = society
 	
 	modifier = {
-		country_prestige_mult = 0.05
 	}
 	
 	unlocking_technologies = {
@@ -120,7 +116,6 @@ elgar_impressionism_tech = {
 	category = society
 	
 	modifier = {
-		country_prestige_mult = 0.05
 	}
 
 	unlocking_technologies = {
@@ -141,7 +136,6 @@ elgar_neoclassicism_tech = {
 	category = society
 	
 	modifier = {
-		country_prestige_mult = 0.05
 	}
 	
 	unlocking_technologies = {
@@ -160,7 +154,6 @@ elgar_expressionism_tech = {
 	category = society
 	
 	modifier = {
-		country_prestige_mult = 0.05
 	}
 
 	unlocking_technologies = {
@@ -181,7 +174,6 @@ elgar_new_objectivity_tech = {
 	category = society
 	
 	modifier = {
-		country_prestige_mult = 0.05
 	}
 	
 	unlocking_technologies = {

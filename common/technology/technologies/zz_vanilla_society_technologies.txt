@@ -16,7 +16,6 @@ romanticism = {
 	category = society
 	
 	modifier = {
-		country_prestige_mult = 0.05
 	}
 	
 	unlocking_technologies = {
@@ -25,6 +24,25 @@ romanticism = {
 
 	ai_weight = {
 		value = 3 # Very important in general
+	}
+}
+
+realism = {
+	# Unlocks Realist Art PM in Art Academies
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/realism.dds"
+	category = society
+	
+	modifier = {
+		#Morgenröte: Removed Prestige
+	}
+	
+	unlocking_technologies = {
+		romanticism
+	}
+	
+	ai_weight = {
+		value = 1
 	}
 }
 
