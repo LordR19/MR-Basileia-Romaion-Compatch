@@ -1,0 +1,43 @@
+﻿SLA = { # Shangri-La
+	color = { 230 105 35 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { tibetan }
+	capital = STATE_NGARI
+}
+
+RAP = { # Rapa Nui
+	color = { 255 25 25 }
+	
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { polynesian }
+	capital = STATE_TAHITI
+}
+
+SBD = { # Sonderbund
+	color = { 200 200 120 }
+
+	country_type = recognized
+
+	tier = kingdom
+
+	cultures = { alemannic francoprovencal ticinese rumantsch }
+	capital = STATE_EAST_SWITZERLAND
+}
+
+NCL = { #Neuchâtel
+	color = { 180 140 0 }
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { alemannic francoprovencal }
+	capital = STATE_WEST_SWITZERLAND
+}
