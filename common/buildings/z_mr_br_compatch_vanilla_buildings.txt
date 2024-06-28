@@ -15,7 +15,7 @@ building_government_administration = {
 	levels_per_mesh = 10
 
 	unlocking_technologies = {
-		municipal_charter #Basileia Romaion
+		br_tech_municipal_charter #Basileia Romaion
 	}
 
 	should_auto_expand = {
@@ -51,7 +51,7 @@ building_railway = {
 	ai_nationalization_desire = 0.5 # AI is reluctant to privatize railways since they are likely to need subsidies anyway
 	
 	unlocking_technologies = {
-		track #Basileia Romaion
+		br_tech_track #Basileia Romaion
 	}
 
 	production_method_groups = {
@@ -179,7 +179,7 @@ building_university = {
 	levels_per_mesh = 5
 
 	unlocking_technologies = {
-		early_modern_universities #Basileia Romaion
+		br_tech_early_modern_universities #Basileia Romaion
 	}
 
 	production_method_groups = {
