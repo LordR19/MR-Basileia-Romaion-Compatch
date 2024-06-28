@@ -145,3 +145,23 @@ curtiss_modern_aviation_tech = {
 		value = 1
 	}
 }
+
+curtiss_tourism_tech = {
+
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/curtiss_tourism_tech.dds"
+	category = society
+	
+	unlocking_technologies = {
+		corporate_charters
+		colonization
+	}
+
+	modifier = {
+		country_max_companies_add = 1
+	}
+
+	ai_weight = {
+		value = 1
+	}
+}
