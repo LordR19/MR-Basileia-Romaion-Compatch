@@ -10,14 +10,17 @@ elgar_classicism_tech = {
 	# Unlocks Opera House
 	# Unlocks Early romantic orchestra for opera
 
-	era = era_1
+	era = era_2
 	texture = "gfx/interface/icons/invention_icons/elgar_classicism_tech.dds"
 	category = society
 	
 	modifier = {
+		country_elgar_decorative_musical_tradition_add = 1
+		country_klimt_decorative_painting_tradition_add = 1
 	}
 	
 	unlocking_technologies = {
+		academia
 	}
 
 	ai_weight = {
@@ -37,6 +40,8 @@ elgar_irrationalism_tech = {
 	category = society
 	
 	modifier = {
+		country_elgar_decorative_musical_tradition_add = 2
+		country_klimt_decorative_painting_tradition_add = 1
 	}
 	
 	unlocking_technologies = {
@@ -65,6 +70,10 @@ elgar_art_nouveau_tech = {
 	category = society
 	
 	modifier = {
+		country_elgar_decorative_musical_tradition_add = 1
+		country_manzoni_decorative_literary_tradition_add = 1
+		country_klimt_decorative_painting_tradition_add = 3
+		goods_output_fine_art_mult = 0.05
 	}
 
 	unlocking_technologies = {
@@ -85,6 +94,9 @@ elgar_art_deco_tech = {
 	category = society
 	
 	modifier = {
+		country_elgar_decorative_musical_tradition_add = 1
+		country_manzoni_decorative_literary_tradition_add = 1
+		country_klimt_decorative_painting_tradition_add = 3
 	}
 	
 	unlocking_technologies = {
@@ -116,6 +128,10 @@ elgar_impressionism_tech = {
 	category = society
 	
 	modifier = {
+		country_elgar_decorative_musical_tradition_add = 3
+		country_manzoni_decorative_literary_tradition_add = 1
+		country_klimt_decorative_painting_tradition_add = 1
+		goods_output_elgar_music_mult = 0.05
 	}
 
 	unlocking_technologies = {
@@ -136,6 +152,9 @@ elgar_neoclassicism_tech = {
 	category = society
 	
 	modifier = {
+		country_elgar_decorative_musical_tradition_add = 3
+		country_manzoni_decorative_literary_tradition_add = 1
+		country_klimt_decorative_painting_tradition_add = 1
 	}
 	
 	unlocking_technologies = {
@@ -154,6 +173,10 @@ elgar_expressionism_tech = {
 	category = society
 	
 	modifier = {
+		country_elgar_decorative_musical_tradition_add = 1
+		country_manzoni_decorative_literary_tradition_add = 3
+		country_klimt_decorative_painting_tradition_add = 1
+		goods_output_manzoni_prints_mult = 0.05
 	}
 
 	unlocking_technologies = {
@@ -174,6 +197,9 @@ elgar_new_objectivity_tech = {
 	category = society
 	
 	modifier = {
+		country_elgar_decorative_musical_tradition_add = 1
+		country_manzoni_decorative_literary_tradition_add = 3
+		country_klimt_decorative_painting_tradition_add = 1
 	}
 	
 	unlocking_technologies = {
