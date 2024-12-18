@@ -8,7 +8,7 @@
 
 panum_vaccination_tech = {
 	# Vaccination for Smallpox
-	era = era_2
+	era = era_3
 	texture = "gfx/interface/icons/invention_icons/panum_vaccination_tech.dds"
 	category = society
 
