@@ -261,3 +261,52 @@ building_university = {
 	
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
+
+#Statue of Liberty
+
+building_statue_of_liberty = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/statue_of_liberty.dds"
+	expandable = no
+	downsizeable = no
+	unique = yes
+	locator = "statue_of_liberty_locator"
+	
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_3x3_entity" }
+	entity_constructed = { "wonder_statue_of_liberty_01_entity"}
+	
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 2
+	}
+	
+	production_method_groups = {
+		pmg_base_building_statue_of_liberty
+	}
+
+#	unlocking_technologies = { 
+#		steel_frame_buildings 
+#	}
+	
+	required_construction = construction_cost_monument
+	
+	potential = {
+		state_region = s:STATE_NEW_YORK
+	}
+
+	###Morgenröte###
+#	can_build_government = {
+#		custom_tooltip = {
+#			text = gaudi_liberty_can_construct_tt
+#			has_global_variable = gaudi_liberty_finished
+#		}
+#	}
+	###End###
+	
+	ai_value = 10000
+
+	downsizeable = no
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
