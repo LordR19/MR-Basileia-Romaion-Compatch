@@ -27,13 +27,15 @@ COUNTRIES = {
 				c:DLM ?= this
 				c:LUC ?= this
 				c:MOD ?= this
-				c:NET ?= this
+				c:FLA ?= this
+				c:BYZ ?= this
 				c:PAP ?= this
 				c:PAR ?= this
 				c:SAR ?= this
 			}
 		}
 		add_technology_researched = verrier_chemistry_tech
+		add_technology_researched = curtiss_messenger_pidgeons_tech
 	}
 
 	#Tier 1 countries:
@@ -44,13 +46,16 @@ COUNTRIES = {
 				c:LOM ?= this
 				c:TUS ?= this
 				c:VEN ?= this
+				c:NET ?= this
 				c:br_genoa ?= this
 				c:br_pisa ?= this
 			}
 		}
 		add_technology_researched = verrier_chemistry_tech
 		add_technology_researched = curtiss_messenger_pidgeons_tech
+		add_technology_researched = curtiss_montgolfier_balloon_tech
 		add_technology_researched = romanticism
+		add_technology_researched = agassiz_geology_tech
 	}
 
 	every_country = {
@@ -81,6 +86,12 @@ COUNTRIES = {
 				c:PER ?= this
 				c:JAP ?= this
 				c:PAP ?= this
+				c:NET ?= this
+				c:FLA ?= this
+				c:LOM ?= this
+				c:VEN ?= this
+				c:ANL ?= this
+				c:SWE ?= this
 			}
 		}
 		add_technology_researched = mass_communication
