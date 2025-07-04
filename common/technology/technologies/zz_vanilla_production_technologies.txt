@@ -14,7 +14,7 @@ atmospheric_engine = {
 	category = production
 	
 	unlocking_technologies = {
-		shaft_mining
+		br_tech_newcomen_engine
 		verrier_physics_tech #Morgenröte: added this tech as trigger
 	}
 
@@ -169,5 +169,24 @@ combustion_engine = {
 			}
 			add = 2 #Morgenröte: changed this from 1 to 2
 		}	
+	}
+}
+
+pasteurization = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/pasteurization.dds"
+	category = production
+	
+	unlocking_technologies = {	
+		vacuum_canning
+		electrical_capacitors
+	}
+
+	modifier = {
+		state_harvest_condition_panum_tuberculosis_condition_impact_mult = -0.25 #Morgenröte: Added Modifier
+	}
+	
+	ai_weight = {
+		value = 1
 	}
 }
