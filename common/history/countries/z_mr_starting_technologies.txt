@@ -96,4 +96,125 @@ COUNTRIES = {
 		}
 		add_technology_researched = mass_communication
 	}
+
+	#Military schools
+	c:HUN ?= {
+		add_modifier = {
+			name = academics_military_industrial_complex_modifier
+		}
+	}
+	c:JAP ?= {
+		add_modifier = {
+			name = academics_military_industrial_complex_modifier
+		}
+	}
+	c:PER ?= {
+		add_modifier = {
+			name = academics_military_industrial_complex_modifier
+		}
+	}
+
+	#Conservative Schools
+	c:MUG ?= {
+		add_modifier = {
+			name = academics_useful_ivory_tower_modifier
+		}
+	}
+	c:CHI ?= {
+		add_modifier = {
+			name = academics_useful_ivory_tower_modifier
+		}
+	}
+	c:br_great_yuan ?= {
+		add_modifier = {
+			name = academics_useful_ivory_tower_modifier
+		}
+	}
+	c:BYZ ?= {
+		add_modifier = {
+			name = academics_useful_ivory_tower_modifier
+		}
+	}
+	c:ARA ?= {
+		add_modifier = {
+			name = academics_useful_ivory_tower_modifier
+		}
+	}
+	c:PAP ?= {
+		add_modifier = {
+			name = academics_useful_ivory_tower_modifier
+		}
+	}
+	c:br_aegypt ?= {
+		add_modifier = {
+			name = academics_useful_ivory_tower_modifier
+		}
+	}
+	c:br_afrika ?= {
+		add_modifier = {
+			name = academics_useful_ivory_tower_modifier
+		}
+	}
+
+	#Industrial Schools
+	c:LOM ?= {
+		add_modifier = {
+			name = academics_business_schools_tycoon_industrialism_modifier
+		}
+	}
+	c:ENG ?= {
+		add_modifier = {
+			name = academics_business_schools_tycoon_industrialism_modifier
+		}
+	}
+
+	#Naval Schools
+	c:FLA ?= {
+		add_modifier = {
+			name = academics_sea_power_merchant_marine_modifier
+		}
+	}
+	c:VEN ?= {
+		add_modifier = {
+			name = academics_sea_power_merchant_marine_modifier
+		}
+	}
+	c:br_genoa ?= {
+		add_modifier = {
+			name = academics_sea_power_merchant_marine_modifier
+		}
+	}
+	c:br_romaioi_india_company ?= {
+		add_modifier = {
+			name = academics_sea_power_merchant_marine_modifier
+		}
+	}
+	c:EOC ?= {
+		add_modifier = {
+			name = academics_sea_power_merchant_marine_modifier
+		}
+	}
+	c:DEI ?= {
+		add_modifier = {
+			name = academics_sea_power_merchant_marine_modifier
+		}
+	}
+	c:OMA ?= {
+		add_modifier = {
+			name = academics_sea_power_merchant_marine_modifier
+		}
+	}
+
+	#Intelligentsia Schools
+	c:ANL ?= {
+		add_modifier = {
+			name = academics_avantgarde_intelligentsia_modifier
+		}
+	}
+	c:TUS ?= {
+		add_modifier = {
+			name = academics_avantgarde_intelligentsia_modifier
+		}
+	}
+
 }
