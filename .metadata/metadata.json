@@ -4,7 +4,9 @@
   "version" : "",
   "supported_game_version" : "",
   "short_description" : "",
-  "tags" : [],
+  "tags" : [
+    "1.9"
+  ],
   "relationships" : [],
   "game_custom_data" : {
     "multiplayer_synchronized" : true
