@@ -2,10 +2,10 @@
   "name" : "MR & Basileia Romaion Compatch",
   "id" : "",
   "version" : "",
-  "supported_game_version" : "1.10.*",
+  "supported_game_version" : "1.11.*",
   "short_description" : "",
   "tags" : [
-    "1.10"
+    "1.11"
   ],
   "relationships" : [],
   "game_custom_data" : {
